@@ -2,6 +2,8 @@ package main;
 
 import catalogo.Producto;
 
+import reservas.Reserva;
+
 /**
  * Clase main se encarga de la ejecución principal del sistema.
  * @author Oscar Eduardo Aguado Diaz
@@ -28,6 +30,13 @@ public class Main {
 		 
 		 System.out.println("\t- Producto 1: " + producto1.toString());
 		 System.out.println("\t- Producto 2: " + producto2.toString());
+		 
+		 
+		//Registrar reserva
+		 Reserva reserva = new Reserva();
+		 reserva.set_date(timeString);
+		 reserva.set_lugar("Burgos");
+		 System.out.println("Su reserva es: \n \t" + reserva.toString());
 		 
 	}
 
