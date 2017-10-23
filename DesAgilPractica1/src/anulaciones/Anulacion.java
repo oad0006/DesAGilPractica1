@@ -5,6 +5,10 @@ package anulaciones;
  *
  */
 public class Anulacion {
-
-	
+	/**
+	 * Constructor
+	 */
+	public Anulacion() {
+		
+	}
 }
