@@ -20,6 +20,7 @@ public class Main {
 		 System.out.println("Programador A - Commit 1");
 		 System.out.println("Programador A - Commit 2");
 		 System.out.println("Conflicto en clase: Programador B");
+		 System.out.println("Conflicto en clase: Programador A");
 		  //Instanciar clase de Time
 		 Timer time = new Timer();
 		 String timeString = time.GetHour();
